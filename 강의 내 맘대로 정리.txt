@@ -1,0 +1,30 @@
+리액트의 컴퍼넌트 기능!
+1. 가독성
+2. 재사용성
+실시간으로 변경된 내용이 업데이트 됨 = 유지보수가 쉬움
+
+npm 설치하는 프로그램
+npx는 create-react-app는 딱 한번만 설치하고 지우는 애. 계속 최신상태를 유지시켜줌.
+
+npm install create-react-app이후..
+
+npm start 에서 화면은 public - index.html 이 실행된 내용이 나옴.
+src/index.js에서 app.js를 소환하는 느낌임
+
+npm start build를 하면 build 폴더가 생기면서
+이미 가지고 있는 데이터들이 싹 저장이 되는 공간이다.
+
+npm serve -s build 이거 써라 훨씬 드는 용량이 줄어든다.
+
+component
+기본적으로 html에 많이 반복적으로 쓰던것을 줄여주고
+재사용성이 쌉사기다. 처음에 알려줬던 것 그대로네.
+
+props?
+{this.props.sub} 이런식으로 사용해서 값을 가져올 수 있다.
+jsx
+
+props
+state는 props에 구현에 필요한 데이터들을 말함
+
+render 되ㄱ전에 constructor 가 존재하면 constructor 먼저실행
